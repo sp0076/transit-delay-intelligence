@@ -1,0 +1,10 @@
+.venv/
+.env
+.DS_Store
+__pycache__/
+*.pyc
+
+data/*.duckdb
+data/*.db
+
+docs/dashboard_screenshots/*.png
