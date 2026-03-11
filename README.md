@@ -94,6 +94,17 @@ Three pages:
 - Stop & Hour Drilldown: [docs/dashboard_screenshots/stop_hour_drilldown.png](docs/dashboard_screenshots/stop_hour_drilldown.png)
 - Weather Impact: [docs/dashboard_screenshots/weather_impact.png](docs/dashboard_screenshots/weather_impact.png)
 
+Inline preview:
+
+![Network / Route Overview](docs/dashboard_screenshots/network_route_overview.png)
+![Stop & Hour Drilldown](docs/dashboard_screenshots/stop_hour_drilldown.png)
+![Weather Impact](docs/dashboard_screenshots/weather_impact.png)
+
+### Architecture + SQL Samples
+
+- Architecture diagram: [docs/architecture.md](docs/architecture.md)
+- SQL samples: [sql/ad_hoc_checks/core_analysis_samples.sql](sql/ad_hoc_checks/core_analysis_samples.sql)
+
 Use real browser screenshots before publishing:
 - Page 1 with caveat banner visible
 - Page 2 with route filter visible
@@ -109,7 +120,12 @@ Use real browser screenshots before publishing:
 │   └── transit_delay.duckdb    # Local DuckDB database
 ├── docs/
 │   ├── METHODOLOGY_LIMITATIONS.md
-│   └── MVP_DELAY_LAYER.md
+│   ├── MVP_DELAY_LAYER.md
+│   ├── architecture.md
+│   └── dashboard_screenshots/
+├── sql/
+│   └── ad_hoc_checks/
+│       └── core_analysis_samples.sql
 ├── dbt/                        # dbt project (not used in MVP pipeline)
 ├── notebooks/                  # EDA notebooks
 ├── build_best_offset_alignment_preview.py
