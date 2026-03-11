@@ -90,15 +90,15 @@ Three pages:
 
 ### Dashboard Screenshots
 
-- Network / Route Overview: [network_route_overview.png](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/network_route_overview.png)
-- Stop & Hour Drilldown: [stop_hour_drilldown.png](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/stop_hour_drilldown.png)
-- Weather Impact: [weather_impact.png](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/weather_impact.png)
+- Network / Route Overview: [docs/dashboard_screenshots/network_route_overview.png](docs/dashboard_screenshots/network_route_overview.png)
+- Stop & Hour Drilldown: [docs/dashboard_screenshots/stop_hour_drilldown.png](docs/dashboard_screenshots/stop_hour_drilldown.png)
+- Weather Impact: [docs/dashboard_screenshots/weather_impact.png](docs/dashboard_screenshots/weather_impact.png)
 
 Inline preview:
 
-![Network / Route Overview](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/network_route_overview.png)
-![Stop & Hour Drilldown](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/stop_hour_drilldown.png)
-![Weather Impact](https://raw.githubusercontent.com/sp0076/transit-delay-intelligence/main/docs/dashboard_screenshots/weather_impact.png)
+![Network / Route Overview](docs/dashboard_screenshots/network_route_overview.png)
+![Stop & Hour Drilldown](docs/dashboard_screenshots/stop_hour_drilldown.png)
+![Weather Impact](docs/dashboard_screenshots/weather_impact.png)
 
 ### Architecture + SQL Samples
 
