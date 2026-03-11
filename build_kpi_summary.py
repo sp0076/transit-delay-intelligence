@@ -67,7 +67,7 @@ SELECT
 FROM matched_by_route m
 LEFT JOIN raw_by_route r
   ON r.route_id = m.route_id
-ORDER BY avg_delay_minutes DESC, route_id ASC
+ORDER BY avg_delay_minutes DESC, m.route_id ASC
 """
 
 try:
@@ -163,7 +163,7 @@ FROM matched_by_route_hour m
 LEFT JOIN raw_by_route_hour r
   ON r.route_id = m.route_id
  AND r.hour_of_day = m.hour_of_day
-ORDER BY route_id ASC, hour_of_day ASC
+ORDER BY m.route_id ASC, m.hour_of_day ASC
 """
 
 try:
