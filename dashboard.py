@@ -183,6 +183,11 @@ if page == "Executive overview":
                 fig.update_layout(coloraxis_showscale=False)
                 st.plotly_chart(style_fig(fig), use_container_width=True)
 
+        st.caption(
+            "Ranking note: **average delay** captures typical delay, while **P95 delay** captures extreme tail risk. "
+            "Routes with occasional severe spikes may rank worse on P95 than on average."
+        )
+
 elif page == "Route performance":
     st.title("Route performance")
 
